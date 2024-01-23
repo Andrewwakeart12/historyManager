@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutation observer custom server test</title>
+</head>
+<style>
+    .mainContainer {
+        width: 100%;
+        height: 100vh;
+        background-color: gray;
+    }
+</style>
+
+<body>
+    <!--import HistoryManager-->
+    <div class="mainContainer">
+        <!--create invisible and not iteractive child-->
+        <input type="hidden" name="firstFalseChild" value="false">
+        <ul>
+            <!--create list with random words and 10 childs-->
+            <li>
+                test
+            </li>
+            <li>
+                test
+            </li>
+            <li>
+                test
+            </li>
+            <li>
+                test
+            </li>
+            <li>
+                test
+            </li>
+            <li>
+                test
+            </li>
+            <li>
+                test
+            </li>
+            <li>
+                test
+            </li>
+        </ul>
+    </div>
+    <script src="./../dist/bundle.js"></script>
+</body>
+
+</html>
